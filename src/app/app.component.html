@@ -1,0 +1,13 @@
+<hot-table  [settings]="hotSettings" [hotId]="id" [afterOnCellMouseDown]="localAfterOnCellMouseDown"></hot-table>
+
+<p>
+    <span>Changed column</span> - <span>{{columnName}}</span>
+</p>
+<p>
+    <span>Changed Value</span> - <span>{{newCellValue}}</span>
+</p>
+<p>
+    <span>Changed Value row position</span> - <span>{{changedrow }}</span>
+</p>
+
+<button (click)="export()">export</button>
